@@ -1,4 +1,13 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "PortfolioGrunt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1"
+  }
 }

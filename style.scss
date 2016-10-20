@@ -6,12 +6,12 @@ header {
   h1 {
     font-size: 40px;
     nav {
-      active {
+      .active {
         border: 1px solid #d3d3d3;
         border-radius: 4px;
         cursor: default;
       }
-      link {
+      .link {
         width: 10px;
         height: 15px;
         margin-left: 5px;
@@ -33,35 +33,44 @@ span{
       border-radius: 8px;
       margin: 15px;
     }
-    pic1{
+    .pic1{
+      background-size: cover;
       background: url("http://www.freewallpaperfullhd.com/wp-content/uploads/2015/06/wallpapers/pier_8-wallpaper-2560x1440.jpg");
     }
-    pic2{
+    .pic2{
+      background-size: cover;
       background: url("http://www.wallpapersxl.com/wallpapers/1920x1080/swiss-military/554311/swiss-military-pier-on-a-beautiful-lake-hd-554311.jpg");
     }
-    pic3{
+    .pic3{
+      background-size: cover;
       background: url("http://www.wallpapersxl.com/wallpapers/1920x1080/hd-sea/419056/hd-sea-pier-desktop-419056.jpg");
     }
-    pic4 {
+    .pic4 {
+      background-size: cover;
       background: url("http://whd.erth.biz/wp-content/uploads/travel/Manhattan-newyork-buildings-skyscrapper-city-travel--resolution-4k-1920x1080.jpg");
     }
-    pic5{
+    .pic5{
+      background-size: cover;
       background: url("http://s1.bwallpapers.com/wallpapers/2014/03/23/sunrise-pic_113553309.jpg");
     }
-    pic6{
+    .pic6{
+      background-size: cover;
       background: url("http://more-sky.com/data/out/7/IMG_175181.jpg");
     }
-    pic7{
+    .pic7{
+      background-size: cover;
       background: url("https://cdn-images-1.medium.com/max/1920/1*YIoOTJMo4d4eFYrAY-D2Gw.jpeg");
     }
-    pic8{
+    .pic8{
+      background-size: cover;
       background: url("https://cdn.wittyfeed.com/24172/qs83vns259zpoy5swsqd.jpeg");
     }
-    pic9{
+    .pic9{
+      background-size: cover;
       background: url("http://8-themes.com/wp-content/uploads/2016/03/43-priroda.jpg");
     }
     h2{
-      white{
+      .white{
         color: aliceblue;
         text-align: center;
         margin-top: 130px;
@@ -69,7 +78,7 @@ span{
         font-size: 16px;
       }
       div{
-        in{
+        .in{
           position: absolute;
           left:0;
           bottom:0;
@@ -79,7 +88,7 @@ span{
           display: none;
         }
         h2{
-          black{
+          .black{
             color: black;
             text-align: center;
             margin-top: 130px;

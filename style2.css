@@ -1,0 +1,119 @@
+* {
+    font-family: "Arial";
+}
+
+body{
+    margin: 0 20%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+nav{
+    display: inline-block;
+    margin: 30px 15px;
+}
+
+.link{
+    width: 10px;
+    height: 15px;
+    margin-left: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.active{
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    cursor: default;
+}
+
+div{
+    display: inline-block;
+    /*background-size: cover;*/
+}
+
+span{
+    display: inline-block;
+    width: 100%;
+    /*padding: 1%;*/
+}
+
+.out{
+    position: relative;
+    width: 280px;
+    height: 180px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.in{
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    margin: 0;
+    display: none;
+    /*background-size: cover;*/
+}
+
+.out:hover .in{
+    display: block;
+    background-color: #fff;
+    opacity:.8;
+}
+
+.white{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 130px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 16px;
+}
+
+.black{
+    color: black;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 16px;
+}
+
+.pic1{
+    background: url("http://www.freewallpaperfullhd.com/wp-content/uploads/2015/06/wallpapers/pier_8-wallpaper-2560x1440.jpg");
+    background-size: cover;
+}
+.pic2{
+    background: url("http://www.wallpapersxl.com/wallpapers/1920x1080/swiss-military/554311/swiss-military-pier-on-a-beautiful-lake-hd-554311.jpg");
+    background-size: cover;
+}
+.pic3{
+    background: url("http://www.wallpapersxl.com/wallpapers/1920x1080/hd-sea/419056/hd-sea-pier-desktop-419056.jpg");
+    background-size: cover;
+}
+.pic4 {
+    background: url("http://whd.erth.biz/wp-content/uploads/travel/Manhattan-newyork-buildings-skyscrapper-city-travel--resolution-4k-1920x1080.jpg");
+    background-size: cover;
+}
+.pic5{
+    background: url("http://s1.bwallpapers.com/wallpapers/2014/03/23/sunrise-pic_113553309.jpg");
+    background-size: cover;
+}
+.pic6{
+    background: url("http://more-sky.com/data/out/7/IMG_175181.jpg");
+    background-size: cover;
+}
+.pic7{
+    background: url("https://cdn-images-1.medium.com/max/1920/1*YIoOTJMo4d4eFYrAY-D2Gw.jpeg");
+    background-size: cover;
+}
+.pic8{
+    background: url("https://cdn.wittyfeed.com/24172/qs83vns259zpoy5swsqd.jpeg");
+    background-size: cover;
+}
+.pic9{
+    background: url("http://8-themes.com/wp-content/uploads/2016/03/43-priroda.jpg");
+    background-size: cover;
+}
